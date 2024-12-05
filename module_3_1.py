@@ -18,9 +18,9 @@ def is_contains(string, list_to_search):
     string.lower()
     list_to_search = [i.lower() for i in list_to_search]
     if string.lower() in list_to_search:
-        print(True)
+        return True
     else:
-        print(False)
+        return False
 
 
 print(string_info('Capibara'))
